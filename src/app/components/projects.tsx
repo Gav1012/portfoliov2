@@ -1,6 +1,9 @@
 export default function Projects() {
     console.log("hello from projects");
     return (
-        <h1>Projects</h1>
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>Project section</p>
+        </section>
     )
 }
