@@ -7,18 +7,17 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Head>
         <title>Portfolio</title>
         <meta name="description" content="Gavin Poley's Portfolio Website"></meta>
       </Head>
-
-      <Header />
       <main>
+        <Header />
         <About />
         <Projects />
         <Contact />
       </main>
-    </div>
+    </>
   );
 }
