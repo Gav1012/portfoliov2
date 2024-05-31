@@ -3,6 +3,7 @@ import About from "./components/about";
 import Projects from "./components/projects";
 import Contact from "./components/contact";
 import Header from "./components/header";
+import Footer from "./components/footer";
 import Image from "next/image";
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
         <About />
         <Projects />
         <Contact />
+        <Footer />
       </main>
     </>
   );
