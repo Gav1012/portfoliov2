@@ -13,13 +13,16 @@ export default function Home() {
         <title>Portfolio</title>
         <meta name="description" content="Gavin Poley's Portfolio Website"></meta>
       </Head>
-      <main>
-        <Header />
-        <About />
-        <Projects />
-        <Contact />
-        <Footer />
-      </main>
+      <div className="flex flex-col min-h-screen">
+        <main className="flex-grow">
+          <Header />
+          <About />
+          <Projects />
+          <Contact />
+          <Footer />
+        </main>
+      </div>
+      
     </>
   );
 }
