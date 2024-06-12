@@ -11,7 +11,7 @@ export default function Home() {
     <>
       <Head>
         <title>Portfolio</title>
-        <meta name="description" content="Gavin Poley's Portfolio Website"></meta>
+        <meta name="description" content="Gavin Poley's Portfolio Website" />
       </Head>
       <div className="flex flex-col min-h-screen">
         <main className="flex-grow">
@@ -19,8 +19,8 @@ export default function Home() {
           <About />
           <Projects />
           <Contact />
-          <Footer />
         </main>
+        <Footer />
       </div>
     </>
   );

@@ -3,7 +3,7 @@ export default function Footer() {
     return(
         <footer>
             <hr></hr>
-            <p className="text-center">Created by Gavin Poley</p>
+            <p className="text-lg text-center py-4">Created by Gavin Poley</p>
         </footer>
     );
 }
