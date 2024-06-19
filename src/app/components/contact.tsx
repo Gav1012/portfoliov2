@@ -1,35 +1,32 @@
+import { FaLinkedin, FaGithub, FaFile } from 'react-icons/fa';
 export default function Contact() {
-    console.log("hello from contact");
     return (
-        <section id="contact">
-            <h1 className="text-6xl">Contact</h1>
+        <section id="contact" className="py-16 px-10">
+            <h1 className="text-6xl mb-8">Contact</h1>
             <p className="text-lg max-w-2xl break-words">
-                If you want to reach out to me!
+                Feel free to reach out to me or view my resume!
             </p>
-            <div className="flex justify-start space-x-4">
+            <div className="flex justify-start space-x-4 py-5">
                 <a
                     href="https://www.linkedin.com/in/gavin-poley/"
-                    className="text-blue-500 hover:underline"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    LinkedIn
+                    <FaLinkedin className="text-6xl border border-transparent rounded p-1 hover:border-blue-400 transition-all duration-300" />
                 </a>
                 <a
                     href="https://github.com/Gav1012"
-                    className="text-gray-400 hover:underline"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    Github
+                    <FaGithub className="text-6xl border border-transparent rounded p-1 hover:border-blue-400 transition-all duration-300" />
                 </a>
                 <a
                     href="/Gavin_Poley_Resume.pdf"
-                    className="text-green-500 hover:underline"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    Resume
+                    <FaFile className="text-6xl border border-transparent rounded p-1 hover:border-blue-400 transition-all duration-300" />
                 </a>
             </div>
         </section>
