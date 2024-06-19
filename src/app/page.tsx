@@ -1,5 +1,6 @@
 import Head from "next/head";
 import About from "./components/about";
+import Experience from "./components/experience";
 import Projects from "./components/projects";
 import Contact from "./components/contact";
 import Header from "./components/header";
@@ -17,6 +18,7 @@ export default function Home() {
         <main className="flex-grow">
           <Header />
           <About />
+          <Experience />
           <Projects />
           <Contact />
         </main>
