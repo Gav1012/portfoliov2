@@ -23,14 +23,14 @@ export default function Projects() {
       <h1 className="text-6xl mb-8">Projects</h1>
       <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-12">
         {projects.map((project) => (
-          <div key={project.id} className="bg-gray-800 p-10 rounded-xl shadow-lg">
+          <div key={project.id} className="bg-blue-900 p-10 rounded-xl shadow-lg">
             <h2 className="text-xl font-bold mb-2">{project.name}</h2>
-            <p className="text-gray-400 mb-4">{project.description}</p>
+            <p className="mb-4">{project.description}</p>
             <a
               href={project.html_url}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-500 hover:underline"
+              className="hover:underline"
             >
               View on GitHub
             </a>

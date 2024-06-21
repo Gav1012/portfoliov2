@@ -4,11 +4,11 @@ export default function Header() {
             <header>
                 <div className="flex justify-center items-center max-w-screen-l">
                     <nav className="flex space-x-4">
-                        <a href="#hero" className="text-2xl hover:text-blue-400 transition=all duration-300">Home</a>
-                        <a href="#about" className="text-2xl hover:text-blue-400 transition=all duration-300">About</a>
-                        <a href="#experience" className="text-2xl hover:text-blue-400 transition=all duration-300">Experience</a>
-                        <a href="#projects" className="text-2xl hover:text-blue-400 transition=all duration-300">Projects</a>
-                        <a href="#contact" className="text-2xl hover:text-blue-400 transition=all duration-300">Contact</a>
+                        <a href="#hero" className="text-2xl hover:text-blue-500 transition=all duration-300">Home</a>
+                        <a href="#about" className="text-2xl hover:text-blue-500 transition=all duration-300">About</a>
+                        <a href="#experience" className="text-2xl hover:text-blue-500 transition=all duration-300">Experience</a>
+                        <a href="#projects" className="text-2xl hover:text-blue-500 transition=all duration-300">Projects</a>
+                        <a href="#contact" className="text-2xl hover:text-blue-500 transition=all duration-300">Contact</a>
                     </nav>  
                 </div>
             </header>
