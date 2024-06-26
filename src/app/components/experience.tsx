@@ -1,12 +1,14 @@
 import React from 'react';
 
 // might add image to card
+// also need to add tech involved for Spacelab
 const experiences = [
   {
     title: "Frontend Developer",
     company: "Spacelab",
     date: "June 2023 - Present",
-    description: "Developed web applications using React and Node.js.",
+    description: "Developed new web pages and updated pre-existing components in React, including incorporating APIs and adhearing to ADA standards",
+    link: "https://github.com/spacelabdev/spacelab-react",
   },
   {
     title: "Grader / Reader",
@@ -30,6 +32,14 @@ export default function Experience() {
                 <p>{experience.company}</p>
                 <p>{experience.date}</p>
                 <p className="mt-2">{experience.description}</p>
+                <a
+                    href={experience.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:underline"
+                >
+                    View on Github
+                </a>
               </div>
               <div className="absolute left-1/2 transform -translate-x-1/2 h-4 w-4 bg-gray-300 rounded-full"></div>
             </li>
