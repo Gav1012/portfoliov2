@@ -27,11 +27,11 @@ export default function Experience() {
         <ul className="space-y-12">
           {experiences.map((experience, index) => (
             <li key={index} className="relative flex items-start">
-              <div className="bg-blue-900 rounded-lg p-4 w-5/12">
+              <div className="bg-blue-900 rounded-lg border border-transparent rounded hover:border-blue-100 transition-all duration-300 p-8 w-5/12">
                 <h3 className="text-xl font-semibold">{experience.title}</h3>
                 <p>{experience.company}</p>
                 <p>{experience.date}</p>
-                <p className="mt-2">{experience.description}</p>
+                <p className="py-2">{experience.description}</p>
                 <a
                     href={experience.link}
                     target="_blank"
