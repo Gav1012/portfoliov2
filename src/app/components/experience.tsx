@@ -26,7 +26,10 @@ export default function Experience() {
         <div className="border-l-4 border-gray-300 absolute h-full left-1/2 transform -translate-x-1/2"></div>
         <ul className="space-y-12">
           {experiences.map((experience, index) => (
-            <li key={index} className="relative flex items-start">
+            <li 
+              key={index} 
+              className={`relative flex items-start ${index % 2 === 0 ? '' : 'flex-row-reverse'}`}
+            >
               <div className="bg-blue-900 rounded-lg border border-transparent rounded p-8 w-5/12 hover:border-blue-100 transition-all duration-300 transform hover:scale-105">
                 <h3 className="text-xl font-semibold">{experience.title}</h3>
                 <p>{experience.company}</p>
