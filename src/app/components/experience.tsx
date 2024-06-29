@@ -27,7 +27,7 @@ export default function Experience() {
         <ul className="space-y-12">
           {experiences.map((experience, index) => (
             <li key={index} className="relative flex items-start">
-              <div className="bg-blue-900 rounded-lg border border-transparent rounded hover:border-blue-100 transition-all duration-300 p-8 w-5/12">
+              <div className="bg-blue-900 rounded-lg border border-transparent rounded p-8 w-5/12 hover:border-blue-100 transition-all duration-300 transform hover:scale-105">
                 <h3 className="text-xl font-semibold">{experience.title}</h3>
                 <p>{experience.company}</p>
                 <p>{experience.date}</p>
@@ -36,7 +36,7 @@ export default function Experience() {
                     href={experience.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="hover:underline"
+                    className="hover:underline font-bold"
                 >
                     View on Github
                 </a>
