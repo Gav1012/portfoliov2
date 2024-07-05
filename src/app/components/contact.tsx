@@ -18,9 +18,9 @@ export default function Contact() {
 
     return (
         <section id="contact" className="py-16 px-10">
-            <h1 className="text-8xl mb-8">Contact</h1>
+            <h1 className="text-8xl mb-8">Say Hello</h1>
             <p className="text-2xl max-w-2xl break-words">
-                Feel free to reach out and say Hello
+                Here are my social links, resume, and email
             </p>
             <div className="flex justify-start space-x-5 py-5">
                 <a
