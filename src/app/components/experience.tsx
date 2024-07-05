@@ -21,7 +21,7 @@ const experiences = [
 export default function Experience() {
   return (
     <section id="experience" className="py-16 px-10">
-      <h1 className="text-6xl mb-8">Experience</h1>
+      <h1 className="text-8xl mb-8">Experience</h1>
       <div className="relative">
         <div className="border-l-4 border-gray-300 absolute h-full left-1/2 transform -translate-x-1/2"></div>
         <ul className="space-y-12">
@@ -31,18 +31,20 @@ export default function Experience() {
               className={`relative flex items-start ${index % 2 === 0 ? '' : 'flex-row-reverse'}`}
             >
               <div className="bg-blue-900 rounded-lg border border-transparent rounded p-8 w-5/12 hover:border-blue-100 transition-all duration-300 transform hover:scale-105">
-                <h3 className="text-xl font-semibold">{experience.title}</h3>
-                <p>{experience.company}</p>
-                <p>{experience.date}</p>
-                <p className="py-2">{experience.description}</p>
-                <a
-                    href={experience.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="hover:underline font-bold"
-                >
+                <h3 className="text-3xl font-semibold">{experience.title}</h3>
+                <p className="text-xl">{experience.company}</p>
+                <p className="text-xl">{experience.date}</p>
+                <p className="text-xl py-2">{experience.description}</p>
+                {experience.link ? (
+                  <a
+                  href={experience.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xl hover:underline font-bold"
+                  >
                     View on Github
-                </a>
+                  </a>
+                ): null}
               </div>
               <div className="absolute left-1/2 transform -translate-x-1/2 h-4 w-4 bg-gray-300 rounded-full"></div>
             </li>
