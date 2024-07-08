@@ -15,7 +15,7 @@ export default function Hero() {
             </div>
             <h1 className="text-6xl font-bold mb-4">Hello, I'm Gavin!</h1>
             <p className="text-2xl mb-8 max-w-2xl mx-auto">
-              I'm a passionate developer skilled in React, Next.js, and Tailwind CSS.
+              I'm a passionate developer skilled in JavaScript, React, Python, and much much more.
             </p>
             <a href="#contact" className="bg-blue-900 text-white py-2 px-6 rounded-lg text-xl hover:bg-blue-500 transition duration-300">
               Contact Me

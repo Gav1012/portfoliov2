@@ -5,6 +5,9 @@ export default function Tech() {
             <p className="text-2xl max-w-6xl">
                 This is where technologies I'm proficient in are going to be displayed
             </p>
+            <p className="flex flex-col items-center">
+                JavaScript, TypeScript, React, Python, C, SQL (Postgre, My), etc etc
+            </p>
         </section>
     )
 }
