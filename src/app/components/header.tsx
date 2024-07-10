@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react';
 
 export default function Header() {
-    const sections = ['hero', 'about', 'experience', 'projects', 'contact'];
+    const sections = ['hero', 'about', 'experience', 'tech', 'projects', 'contact'];
     const [activeSection, setActiveSection] = useState('');
     
     // handles the tracking of what section the user is currently at, adjusting the header to underline
