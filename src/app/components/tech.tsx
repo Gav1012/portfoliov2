@@ -1,4 +1,5 @@
 export default function Tech() {
+    // will update to be a toolbar showing my skills in different languages.
     return (
         <section id="tech" className="py-16 px-10">
             <h1 className="text-8xl mb-8">Tech</h1>
