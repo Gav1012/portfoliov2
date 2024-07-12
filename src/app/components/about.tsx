@@ -1,6 +1,6 @@
 export default function About() {
     return (
-        <section id="about" className="py-16 px-10">
+        <section id="about" className="py-20 px-10">
             <h1 className="text-7xl md:text-9xl mb-8">About Me</h1>
             <p className="text-2xl max-w-6xl break-words">
                 Hey, I’m Gavin! I'm a graduate from the University of California Santa Cruz with a Bachelor’s in Computer Science. Most of my experience
