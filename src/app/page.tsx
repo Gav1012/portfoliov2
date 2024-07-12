@@ -11,18 +11,18 @@ import Footer from "./components/footer";
 export default function Home() {
   return (
     <>
-      <div className="flex flex-col min-h-screen">
-        <main className="flex-grow">
-          <Header />
-          <Hero />
-          <About />
-          <Experience />
-          <Tech />
-          <Projects />
-          <Contact />
-        </main>
-        <Footer />
-      </div>
+      <main className="flex min-h-screen flex-col w-full">
+        <div>
+            <Header />
+            <Hero />
+            <About />
+            <Experience />
+            <Tech />
+            <Projects />
+            <Contact />
+        </div>
+      </main>
+      <Footer />
     </>
   );
 }

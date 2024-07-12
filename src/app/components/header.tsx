@@ -55,7 +55,7 @@ export default function Header() {
     };
 
     return (
-        <section className="py-2 px-3 md:flex flex-col items-center sticky top-0 bg-[#121212] z-10 border-b border-gray-100">
+        <section className="py-4 px-3 md:flex flex-col items-center sticky top-0 bg-[#121212] z-10 border-b border-gray-100">
             <nav>
               <div className="hidden space-x-4 justify-between md:flex">
                 <Navigation />

@@ -47,7 +47,6 @@ export default function Contact() {
                 </a>
                 <div onClick={handleCopyEmail}>
                     <a
-                        href="#"
                         className="cursor-pointer"
                         onClick={handleEmailClick}
                     >
