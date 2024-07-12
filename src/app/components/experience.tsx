@@ -20,8 +20,8 @@ const experiences = [
 
 export default function Experience() {
   return (
-    <section id="experience" className="py-16 px-10">
-      <h1 className="text-7xl md:text-9xl mb-8">Experience</h1>
+    <section id="experience" className="py-16 px-10 scroll-mt-20">
+      <h1 className="text-7xl md:text-9xl mb-10 text-center">Experience</h1>
       <div className="relative">
         <div className="border-l-4 border-gray-300 absolute h-full left-1/2 transform -translate-x-1/2"></div>
         <ul className="space-y-12">

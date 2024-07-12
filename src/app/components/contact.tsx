@@ -19,11 +19,11 @@ export default function Contact() {
 
     return (
         <section id="contact" className="py-16 px-10">
-            <h1 className="text-7xl md:text-9xl mb-8">Say Hello</h1>
-            <p className="text-2xl max-w-2xl break-words">
+            <h1 className="text-7xl md:text-9xl mb-8 text-center">Say Hello</h1>
+            <p className="text-2xl break-words text-center">
                 Here are my social links, resume, and email
             </p>
-            <div className="flex justify-start space-x-5 py-5">
+            <div className="flex justify-center items-center space-x-5 py-5">
                 <a
                     href="https://www.linkedin.com/in/gavin-poley/"
                     target="_blank"
@@ -53,7 +53,6 @@ export default function Contact() {
                         <FaEnvelope className="text-8xl border border-transparent rounded p-1 hover:border-blue-400 transition-all duration-300 hover:scale-105" />
                     </a>
                 </div>
-                
             </div>
         </section>
     )

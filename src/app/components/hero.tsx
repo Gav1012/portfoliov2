@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Hero() {
     return (
-        <section id="hero" className="text-white py-16 flex items-center justify-center">
+        <section id="hero" className="text-white my-10 flex items-center justify-center">
           <div className="text-center">
             <div className="flex justify-center items-center mb-5">
               <Image 
