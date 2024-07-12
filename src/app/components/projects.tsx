@@ -20,7 +20,7 @@ export default function Projects() {
 
   return (
     <section id="projects" className="py-16 px-10">
-      <h1 className="text-8xl mb-8">Projects</h1>
+      <h1 className="text-7xl md:text-9xl mb-8">Projects</h1>
       <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-12">
         {projects.map((project) => (
           <div key={project.id} className="bg-blue-900 p-8 rounded-xl border border-transparent rounded hover:border-blue-100 transition-all duration-300 transform hover:scale-105">

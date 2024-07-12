@@ -19,7 +19,7 @@ export default function Contact() {
 
     return (
         <section id="contact" className="py-16 px-10">
-            <h1 className="text-8xl mb-8">Say Hello</h1>
+            <h1 className="text-7xl md:text-9xl mb-8">Say Hello</h1>
             <p className="text-2xl max-w-2xl break-words">
                 Here are my social links, resume, and email
             </p>

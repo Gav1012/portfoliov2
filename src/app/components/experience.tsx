@@ -21,16 +21,16 @@ const experiences = [
 export default function Experience() {
   return (
     <section id="experience" className="py-16 px-10">
-      <h1 className="text-8xl mb-8">Experience</h1>
+      <h1 className="text-7xl md:text-9xl mb-8">Experience</h1>
       <div className="relative">
         <div className="border-l-4 border-gray-300 absolute h-full left-1/2 transform -translate-x-1/2"></div>
         <ul className="space-y-12">
           {experiences.map((experience, index) => (
             <li 
               key={index} 
-              className={`relative flex items-start ${index % 2 === 0 ? '' : 'flex-row-reverse'}`}
+              className={`relative flex flex-row items-start ${index % 2 === 0 ? '' : 'flex-row-reverse'}`}
             >
-              <div className="bg-blue-900 rounded-lg border border-transparent rounded p-8 w-5/12 hover:border-blue-100 transition-all duration-300 transform hover:scale-105">
+              <div className="bg-blue-900 rounded-lg border border-transparent rounded p-5 w-5/12 hover:border-blue-100 transition-all duration-300 transform hover:scale-105">
                 <h3 className="text-3xl font-semibold">{experience.title}</h3>
                 <p className="text-xl">{experience.company}</p>
                 <p className="text-xl">{experience.date}</p>

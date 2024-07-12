@@ -2,7 +2,7 @@ export default function Tech() {
     // will update to be a toolbar showing my skills in different languages.
     return (
         <section id="tech" className="py-16 px-10">
-            <h1 className="text-8xl mb-8">Tech</h1>
+            <h1 className="text-7xl md:text-9xl mb-8">Tech</h1>
             <p className="text-2xl max-w-6xl">
                 This is where technologies I'm proficient in are going to be displayed
             </p>
