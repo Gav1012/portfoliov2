@@ -1,14 +1,19 @@
 export default function Tech() {
-    // will update to be a toolbar showing my skills in different languages.
+    // array holds all the technologies I'm skilled with
+    const techSkills = ["JavaScript", "TypeScript", "Python", "C", "C++", "React", "HTML", "CSS", "PostgreSQL", "MySQL", "Next.js", "Node.js", "Express", "Git", "Docker"];
     return (
-        <section id="tech" className="py-16 px-10">
-            <h1 className="text-7xl md:text-9xl mb-8">Tech</h1>
-            <p className="text-2xl max-w-6xl">
-                This is where technologies I'm proficient in are going to be displayed
-            </p>
-            <p className="flex flex-col items-center">
-                JavaScript, TypeScript, React, Python, C, SQL (Postgre, My), etc etc
-            </p>
+        <section id="tech" className="py-16 px-10 scroll-mt-20">
+            <h1 className="text-7xl md:text-9xl mb-8 text-center">Tech</h1>
+            <ul className="flex flex-wrap justify-center text-center text-xl gap-4 max-w-6xl mx-auto">
+                {techSkills.map((skill, index) => (
+                    <li 
+                        className="transform hover:scale-105 hover:bg-blue-900 transition duration-300 border border-white rounded-xl px-5 py-3" 
+                        key={index}
+                    >
+                        {skill}
+                    </li>
+                ))}
+            </ul>
         </section>
     )
-}
+}       
