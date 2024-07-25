@@ -3,7 +3,6 @@ export default function Footer() {
         <footer className="py-4 flex flex-col text-center items-center">
             <div className="w-3/4 border-t border-gray-100 py-4">
                 <p className="text-2xl py-2">Created by Gavin Poley</p>
-                <p className="text-md">Built with: React, Next.js, TypeScript, TailwindCSS</p>
             </div>
         </footer>
     );

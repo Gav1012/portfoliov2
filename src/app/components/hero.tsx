@@ -2,21 +2,21 @@ import Image from 'next/image';
 
 export default function Hero() {
     return (
-        <section id="hero" className="text-white my-10 flex items-center justify-center">
+        <section id="hero" className="text-white mt-32 mb-20 flex items-center justify-center">
           <div className="text-center">
             <div className="flex justify-center items-center mb-5">
-              <Image 
-                src="/gprofile.jpg"
-                width={300}
-                height={300}
-                alt="Profile Picture"
-                className="rounded"
-              />
+                <Image 
+                  src="/gprofile.jpg"
+                  width={192}
+                  height={192}
+                  priority={true}
+                  alt="Gavin Poley Picture"
+                  className="h-80 w-80 rounded-full object-cover"
+                />
             </div>
-            <h1 className="text-6xl font-bold mb-4">Hello, I'm Gavin!</h1>
-            <p className="text-2xl mb-8 max-w-2xl mx-auto">
-              I'm a passionate developer skilled in JavaScript, React, Python, C, and much much more.
-            </p>
+            <p className="text-4xl">Hello, I'm</p>
+            <h1 className="text-6xl">Gavin Poley</h1>
+            <p className="text-4xl mb-6">B.S. Computer Science</p>
             <a href="#contact" className="bg-blue-900 text-white py-2 px-6 rounded-lg text-xl hover:bg-blue-500 transition duration-300">
               Contact Me
             </a>
