@@ -3,8 +3,11 @@ import { useState, useEffect } from 'react';
 import { FiX, FiAlignJustify } from "react-icons/fi";
 
 export default function Header() {
+  // holds the different section links
   const sections = ['about', 'experience', 'tech', 'projects', 'contact'];
+  // used to keep track on the section user is currently looking at
   const [activeSection, setActiveSection] = useState('');
+  // used for the burger menu in mobile mode
   const [isOpen, setIsOpen] = useState(false);
   
 

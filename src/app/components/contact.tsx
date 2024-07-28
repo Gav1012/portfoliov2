@@ -12,7 +12,7 @@ export default function Contact() {
             .then(() => setCopied(true))
             .catch((err) => console.error("failed"));
     };
-    
+    // helps with copying the email to the user's clipboard
     const handleEmailClick = () => {
         window.location.href = `mailto:${emailAdd}`;
     };

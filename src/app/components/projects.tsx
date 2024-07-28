@@ -5,6 +5,8 @@ export default function Projects() {
   const [projects, setProjects] = useState([]);
 
   // makes an API call to Github to grab projects
+  // might change this and manually update it so I can have
+  // more personalization
   useEffect(() => {
     const fetchGitHubProjects = async () => {
         const username = 'Gav1012';
