@@ -1,8 +1,12 @@
 "use client";
 import { useEffect, useState } from 'react';
+import Image from 'next/image';
 
 export default function Projects() {
   const [projects, setProjects] = useState([]);
+  // setting up redoing this part of the web, will manually update projects
+  // want specific images for projects
+  // const selectedProjects = ['flixforum', 'Facebook-MarketPlace-Clone', 'Three.js-Assignment'];
 
   // makes an API call to Github to grab projects
   // might change this and manually update it so I can have
