@@ -6,6 +6,11 @@ export default function Projects() {
   // want specific images for projects
   const projects = [
     {
+      name: 'PokeWebDex (Current WIP)',
+      link: 'https://github.com/Gav1012/pokewebdex',
+      image: '/pokewebdex.png'
+    },
+    {
       name: 'FlixForum',
       link: 'https://github.com/kyone138/flixforum',
       image: '/flixforum.png',
