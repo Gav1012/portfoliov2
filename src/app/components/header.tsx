@@ -49,8 +49,8 @@ export default function Header() {
             <a
                 key={section}
                 href={`#${section}`}
-                className={`text-2xl md:text-3xl py-1 hover:text-blue-500 transition-all duration-300 ${
-                    activeSection === section ? 'border-b-4 border-blue-500' : ''
+                className={`text-2xl md:text-3xl py-1 hover:text-blue-900 transition-all duration-300 ${
+                    activeSection === section ? 'border-b-4 border-blue-900' : ''
                 }`}
                 onClick={closeBurgerMenu}
             >

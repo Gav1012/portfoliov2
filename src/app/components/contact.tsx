@@ -29,28 +29,28 @@ export default function Contact() {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <FaLinkedin className="text-8xl border border-transparent rounded p-1 hover:border-blue-400 transition-all duration-300 hover:scale-105" />
+                    <FaLinkedin className="text-8xl border border-transparent rounded-xl p-1 hover:border-gray-100 transition-all duration-300 hover:scale-105" />
                 </a>
                 <a
                     href="https://github.com/Gav1012"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <FaGithub className="text-8xl border border-transparent rounded p-1 hover:border-blue-400 transition-all duration-300 hover:scale-105" />
+                    <FaGithub className="text-8xl border border-transparent rounded-xl p-1 hover:border-gray-100 transition-all duration-300 hover:scale-105" />
                 </a>
                 <a
                     href="/Gavin_Poley_Resume.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <FaFile className="text-8xl border border-transparent rounded p-1 hover:border-blue-400 transition-all duration-300 hover:scale-105" />
+                    <FaFile className="text-8xl border border-transparent rounded-xl p-1 hover:border-gray-100 transition-all duration-300 hover:scale-105" />
                 </a>
                 <div onClick={handleCopyEmail}>
                     <a
                         className="cursor-pointer"
                         onClick={handleEmailClick}
                     >
-                        <FaEnvelope className="text-8xl border border-transparent rounded p-1 hover:border-blue-400 transition-all duration-300 hover:scale-105" />
+                        <FaEnvelope className="text-8xl border border-transparent rounded-xl p-1 hover:border-gray-100 transition-all duration-300 hover:scale-105" />
                     </a>
                 </div>
             </div>
