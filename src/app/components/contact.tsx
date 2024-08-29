@@ -23,36 +23,41 @@ export default function Contact() {
             <p className="text-2xl break-words text-center">
                 Here are my social links, resume, and email
             </p>
-            <div className="flex justify-center items-center space-x-5 py-5">
+            <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-4 py-5">
                 <a
                     href="https://www.linkedin.com/in/gavin-poley/"
                     target="_blank"
                     rel="noopener noreferrer"
+                    className="flex items-center space-x-2"
                 >
-                    <FaLinkedin className="text-8xl border border-transparent rounded-xl p-1 hover:border-gray-100 transition-all duration-300 hover:scale-105" />
+                    <FaLinkedin className="text-6xl border border-transparent rounded-xl p-1 hover:border-gray-100 transition-all duration-300 hover:scale-105" />
+                    <span className="text-3xl">LinkedIn</span>
                 </a>
                 <a
                     href="https://github.com/Gav1012"
                     target="_blank"
                     rel="noopener noreferrer"
+                    className="flex items-center space-x-2"
                 >
-                    <FaGithub className="text-8xl border border-transparent rounded-xl p-1 hover:border-gray-100 transition-all duration-300 hover:scale-105" />
+                    <FaGithub className="text-6xl border border-transparent rounded-xl p-1 hover:border-gray-100 transition-all duration-300 hover:scale-105" />
+                    <span className="text-3xl">GitHub</span>
                 </a>
                 <a
                     href="/Gavin_Poley_Resume.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
+                    className="flex items-center space-x-2"
                 >
-                    <FaFile className="text-8xl border border-transparent rounded-xl p-1 hover:border-gray-100 transition-all duration-300 hover:scale-105" />
+                    <FaFile className="text-6xl border border-transparent rounded-xl p-1 hover:border-gray-100 transition-all duration-300 hover:scale-105" />
+                    <span className="text-3xl">Resume</span>
                 </a>
-                <div onClick={handleCopyEmail}>
-                    <a
-                        className="cursor-pointer"
-                        onClick={handleEmailClick}
-                    >
-                        <FaEnvelope className="text-8xl border border-transparent rounded-xl p-1 hover:border-gray-100 transition-all duration-300 hover:scale-105" />
-                    </a>
-                </div>
+                <a
+                    className="cursor-pointer flex items-center space-x-2"
+                    onClick={handleCopyEmail}
+                >
+                    <FaEnvelope className="text-6xl border border-transparent rounded-xl p-1 hover:border-gray-100 transition-all duration-300 hover:scale-105" />
+                    <span className="text-3xl">Email</span>
+                </a>
             </div>
         </section>
     )
