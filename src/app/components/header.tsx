@@ -31,7 +31,7 @@ export default function Header() {
 
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  });
 
   // toggles the burger menu to open to close when in mobile view
   const toggleBurger = () => {

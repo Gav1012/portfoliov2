@@ -1,5 +1,6 @@
 "use client";
 import React from 'react';
+import Image from 'next/image';
 
 export default function Projects() {
   // setting up redoing this part of the web, will manually update projects
@@ -32,14 +33,18 @@ export default function Projects() {
       <h1 className="text-7xl md:text-9xl mb-8 text-center">Projects</h1>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         {projects.map((project) => (
-          <div key={project.id} className="bg-blue-900 p-6 mx-6 rounded-xl border border-transparent rounded hover:border-blue-100 transition-all duration-300 transform hover:scale-105">
-            <div className="flex justify-center">
-              <img 
-                src={project.image}
-                className="w-96 h-96 object-cover rounded-2xl"
-              />
+          <div key={project.name} className="bg-blue-900 p-6 mx-6 rounded-xl border border-transparent rounded hover:border-blue-100 transition-all duration-300 transform hover:scale-105">
+            <div className="flex justify-center" style={{ aspectRatio: '1 / 1'}}>
+              <div className="relative w-full pb-[100%]">
+                <Image
+                  src={project.image}
+                  className="rounded-2xl"
+                  layout="fill"
+                  objectFit="cover"
+                  alt="project image"
+                />
+              </div>
             </div>
-            
             <div className="flex flex-col items-center justify-center">
               <h2 className="text-center text-3xl font-bold mt-2 mb-2">{project.name}</h2>
               <a
