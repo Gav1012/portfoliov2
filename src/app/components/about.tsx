@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function About() {
     return (
-        <section id="about" className="py-16 px-10 scroll-mt-22">
+        <section id="about" className="py-16 px-10 scroll-mt-28">
             <h1 className="text-6xl md:text-9xl mb-8 text-center">About Me</h1>
             <p className="text-lg text-justify md:text-2xl max-w-6xl mx-auto">
                 Hey there, my name is Gavin! I&apos;m a graduate from the University of California Santa Cruz with a Bachelor&apos;s in Computer Science. My 

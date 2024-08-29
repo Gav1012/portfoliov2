@@ -29,7 +29,7 @@ export default function Projects() {
   ];
 
   return (
-    <section id="projects" className="mb-32 mt-10 md:mx-20 px-10 scroll-mt-28">
+    <section id="projects" className="mb-32 mt-10 md:mx-20 px-10 scroll-mt-32">
       <h1 className="text-7xl md:text-9xl mb-8 text-center">Projects</h1>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         {projects.map((project) => (

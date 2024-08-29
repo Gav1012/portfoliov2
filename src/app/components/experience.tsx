@@ -7,7 +7,7 @@ const experiences = [
     title: "Frontend Developer",
     company: "Spacelab",
     date: "June 2023 - Present",
-    description: "Developed new web pages and updated pre-existing components front end components, including incorporating APIs, adhearing to ADA standards, and collaborating on new ideas to implement to the website",
+    description: "Developed new web pages and updated legacy front end components, including incorporating APIs, adhearing to ADA standards, and collaborating on new ideas to implement to the website",
     link: "https://github.com/spacelabdev/spacelab-react",
   },
   {
@@ -20,7 +20,7 @@ const experiences = [
 
 export default function Experience() {
   return (
-    <section id="experience" className="py-16 px-10 md:mx-20 scroll-mt-18">
+    <section id="experience" className="py-16 px-10 md:mx-20 scroll-mt-20">
       <h1 className="text-6xl md:text-9xl mb-10 text-center">Experience</h1>
       <div className="relative">
         <div className="border-l-4 border-gray-300 absolute h-full left-4 md:left-1/2 transform -translate-x-1/2"></div>
@@ -34,7 +34,7 @@ export default function Experience() {
                 <h3 className="text-3xl font-semibold">{experience.title}</h3>
                 <p className="text-xl">{experience.company}</p>
                 <p className="text-xl">{experience.date}</p>
-                <p className="text-lg mb-4 text-justify tracking-tight">{experience.description}</p>
+                <p className="text-lg text-justify mb-4">{experience.description}</p>
                 {experience.link ? (
                   <a
                   href={experience.link}
