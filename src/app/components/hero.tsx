@@ -8,11 +8,11 @@ export default function Hero() {
             <div className="flex justify-center items-center mb-5">
                 <Image 
                   src="/gprofile.jpg"
-                  width={192}
-                  height={192}
+                  width={320}
+                  height={320}
                   priority={true}
                   alt="Gavin Poley Picture"
-                  className="h-80 w-80 rounded-full object-cover"
+                  className="rounded-full object-cover"
                 />
             </div>
             <p className="text-4xl">Hello, I&apos;m</p>
