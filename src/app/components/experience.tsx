@@ -7,7 +7,7 @@ const experiences = [
     title: "Frontend Developer",
     company: "Spacelab",
     date: "June 2023 - Present",
-    description: "Developed new web pages and updated legacy front end components, including incorporating APIs, adhearing to ADA standards, and collaborating on new ideas to implement to the website",
+    description: "Developed new web pages and updated legacy front end components, including integrating APIs, adhearing to ADA standards, and collaborating on new ideas to implement to the website",
     link: "https://github.com/spacelabdev/spacelab-react",
   },
   {

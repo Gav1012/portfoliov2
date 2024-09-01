@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function Hero() {
     return (
-        <section id="hero" className="text-white mt-24 md:mt-32 mb-20 flex items-center justify-center">
+        <section id="hero" className="text-white mt-20 md:mt-32 mb-20 flex items-center justify-center">
           <div className="text-center">
             <div className="flex justify-center items-center mb-5">
                 <Image 
