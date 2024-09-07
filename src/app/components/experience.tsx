@@ -1,12 +1,11 @@
 import React from 'react';
 
-// might add image to card
-// also need to add tech involved for Spacelab
+// array holds objects with properties related to the experience
 const experiences = [
   {
     title: "Frontend Developer",
     company: "Spacelab",
-    date: "June 2023 - Present",
+    date: "June 2023 - March 2024",
     description: "Developed new web pages and updated legacy front end components, including integrating APIs, adhearing to ADA standards, and collaborating on new ideas to implement to the website",
     link: "https://github.com/spacelabdev/spacelab-react",
   },

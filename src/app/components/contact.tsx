@@ -12,10 +12,6 @@ export default function Contact() {
             .then(() => setCopied(true))
             .catch((err) => console.error("failed"));
     };
-    // helps with copying the email to the user's clipboard
-    const handleEmailClick = () => {
-        window.location.href = `mailto:${emailAdd}`;
-    };
 
     return (
         <section id="contact" className="py-16 px-10">

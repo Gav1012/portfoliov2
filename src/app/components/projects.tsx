@@ -21,11 +21,6 @@ export default function Projects() {
       link: 'https://github.com/Gav1012/Facebook-MarketPlace-Clone',
       image: '/marketplace.png',
     },
-    // {
-    //   name: 'Three.js Final Project',
-    //   link: 'https://github.com/Gav1012/Three.js-Assignment?tab=readme-ov-file',
-    //   image: '/threejs.png',
-    // }
   ];
 
   return (

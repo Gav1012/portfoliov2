@@ -2,7 +2,7 @@ import React from 'react';
 import StackIcon from 'tech-stack-icons';
 
 export default function Tech() {
-    // array holds all the technologies I'm skilled with
+    // array holds all the technologies
     const techSkills = ["js", "typescript", "python", "c++", "reactjs", "html5", "css3", "tailwindcss", "nodejs", "nextjs", "postgresql", "mongodb", "git", "docker"];
     return (
         <section id="tech" className="py-16 px-10 scroll-mt-20">
