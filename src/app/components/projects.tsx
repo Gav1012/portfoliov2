@@ -7,7 +7,17 @@ export default function Projects() {
   // want specific images for projects
   const projects = [
     {
-      name: 'PokeWebDex (Current WIP)',
+      name: 'Youtube on Rails',
+      link: 'https://github.com/Gav1012/ytonrails',
+      image: '/placeholder-1.png'
+    },
+    {
+      name: 'Chatty',
+      link: 'https://github.com/Gav1012/pythonchatbot',
+      image: '/placeholder-1.png'
+    },
+    {
+      name: 'PokeWebDex',
       link: 'https://github.com/Gav1012/pokewebdex',
       image: '/pokewebdex.png'
     },
