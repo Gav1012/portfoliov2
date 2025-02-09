@@ -3,7 +3,7 @@ import StackIcon from 'tech-stack-icons';
 
 export default function Tech() {
     // array holds all the technologies
-    const techSkills = ["js", "typescript", "python", "c++", "reactjs", "html5", "css3", "tailwindcss", "nodejs", "nextjs", "postgresql", "mongodb", "git", "docker"];
+    const techSkills = ["js", "typescript", "python", "c++", "reactjs", "html5", "css3", "tailwindcss", "nodejs", "nextjs", "postgresql", "mysql", "mongodb", "git", "docker", "ruby", "rails"];
     return (
         <section id="tech" className="py-16 px-10 scroll-mt-20">
             <h1 className="text-7xl md:text-9xl mb-8 text-center">Tech</h1>
