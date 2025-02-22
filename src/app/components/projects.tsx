@@ -4,7 +4,6 @@ import Image from 'next/image';
 
 export default function Projects() {
   // setting up redoing this part of the web, will manually update projects
-  // want specific images for projects
   const projects = [
     {
       name: 'Youtube on Rails',
