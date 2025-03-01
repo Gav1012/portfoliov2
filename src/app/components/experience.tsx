@@ -6,14 +6,14 @@ const experiences = [
     title: "Frontend Developer",
     company: "Spacelab",
     date: "June 2023 - March 2024",
-    description: "Developed new web pages and updated legacy front end components, including integrating APIs, adhearing to ADA standards, and collaborating on new ideas to implement to the website",
+    description: "Developed new web pages and updated legacy front end components along side UX designers. Integrated new APIs, improved accessibility for user's with disabilities, and executed comprehensive testing and coverage",
     link: "https://github.com/spacelabdev/spacelab-react",
   },
   {
     title: "Grader / Reader",
     company: "University of California Santa Cruz",
-    date: "Sept. 2022 - Dec. 2022",
-    description: "Graded student homework and tests leaving detailed notes of mistakes. Held 1 on 1 discussions with students about problems, providing solutions and breakdowns of marked problems",
+    date: "Sept 2022 - Dec 2022",
+    description: "Graded student homework and tests leaving detailed notes of mistakes. Held 1 on 1 discussions with students about problems, providing solutions and breakdowns of the solutions for incorrect answers",
   },
 ];
 

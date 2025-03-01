@@ -26,6 +26,11 @@ export default function Projects() {
       image: '/flixforum.png',
     },
     {
+      name: 'HTTP Server',
+      link: 'https://github.com/Gav1012/CSE130',
+      image: '/placeholder-1.png',
+    },
+    {
       name: 'Facebook Marketplace',
       link: 'https://github.com/Gav1012/Facebook-MarketPlace-Clone',
       image: '/marketplace.png',
