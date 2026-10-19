@@ -40,7 +40,7 @@ export default function Projects() {
   return (
     <section id="projects" className="mb-20 md:mb-32 mt-10 md:mx-20 px-4 sm:px-6 md:px-10 scroll-mt-32">
       <h1 className="text-7xl md:text-9xl mb-6 md:mb-8 text-center">Projects</h1>
-      <div className="grid grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4 md:gap-5">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 md:gap-5">
         {projects.map((project) => (
           <div key={project.name} className="min-w-0 bg-blue-900 p-2 sm:p-3 md:p-4 rounded-xl border border-transparent hover:border-blue-100 transition-all duration-300 transform hover:scale-105">
               <div className="relative w-full aspect-square max-h-48 sm:max-h-48 lg:max-h-52">
