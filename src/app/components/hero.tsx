@@ -17,7 +17,7 @@ export default function Hero() {
           </div>
           <p className="text-4xl">Hello, I&apos;m</p>
           <h1 className="text-6xl">Gavin Poley</h1>
-          <p className="text-4xl mb-6">Software Developer</p>
+          <p className="text-4xl mb-6">IT Technician / Software Developer</p>
           <a href="#contact" className="bg-blue-900 text-white py-2 px-6 rounded-full text-xl transition-colors duration-300 hover:bg-gray-100 hover:text-blue-900">
             Contact Me
           </a>

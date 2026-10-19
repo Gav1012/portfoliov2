@@ -3,6 +3,12 @@ import React from 'react';
 // array holds objects with properties related to the experience
 const experiences = [
   {
+    title: "IT Technician",
+    company: "Lemco Precision Inc.",
+    date: "March 2025 - Present",
+    description: "",
+  },
+  {
     title: "Frontend Developer",
     company: "Spacelab",
     date: "June 2023 - March 2024",
