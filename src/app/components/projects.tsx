@@ -38,29 +38,27 @@ export default function Projects() {
   ];
 
   return (
-    <section id="projects" className="mb-32 mt-10 md:mx-20 px-10 scroll-mt-32">
-      <h1 className="text-7xl md:text-9xl mb-8 text-center">Projects</h1>
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+    <section id="projects" className="mb-20 md:mb-32 mt-10 md:mx-20 px-4 sm:px-6 md:px-10 scroll-mt-32">
+      <h1 className="text-7xl md:text-9xl mb-6 md:mb-8 text-center">Projects</h1>
+      <div className="grid grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4 md:gap-5">
         {projects.map((project) => (
-          <div key={project.name} className="bg-blue-900 p-6 mx-6 rounded-xl border border-transparent rounded hover:border-blue-100 transition-all duration-300 transform hover:scale-105">
-            <div className="flex justify-center" style={{ aspectRatio: '1 / 1'}}>
-              <div className="relative w-full pb-[100%]">
+          <div key={project.name} className="min-w-0 bg-blue-900 p-2 sm:p-3 md:p-4 rounded-xl border border-transparent hover:border-blue-100 transition-all duration-300 transform hover:scale-105">
+              <div className="relative w-full aspect-square max-h-48 sm:max-h-48 lg:max-h-52">
                 <Image
                   src={project.image}
+                  alt={`${project.name} project screenshot`}
                   className="rounded-2xl"
                   layout="fill"
                   objectFit="cover"
-                  alt="project image"
                 />
               </div>
-            </div>
             <div className="flex flex-col items-center justify-center">
-              <h2 className="text-center text-3xl font-bold mt-2 mb-2">{project.name}</h2>
+              <h2 className="text-center text-md md:text-2xl font-bold mt-2 mb-1 break-words">{project.name}</h2>
               <a
                 href={project.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-xl mt-2 border rounded-full py-2 px-6 transition-colors duration-300 hover:bg-gray-100 hover:text-blue-900"
+                className="text-xs sm:text-sm md:text-base mt-2 border rounded-full py-2 px-3 md:px-4 transition-colors duration-300 hover:bg-gray-100 hover:text-blue-900"
               >
                 View on GitHub
               </a>
