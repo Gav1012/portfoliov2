@@ -26,7 +26,7 @@ export default function Tech() {
             <ul className="flex flex-wrap justify-center text-center text-xl gap-3 max-w-6xl mx-auto">
                 {techSkills.map((skill, index) => (
                     <li 
-                        className="flex flex-col items-center md:px-5 py-3 border border-transparent rounded-xl transform hover:border-gray-100 transition duration-300 hover:scale-105" 
+                        className="flex flex-col items-center px-1 md:px-5 py-3 border border-transparent rounded-xl transform hover:border-gray-100 transition duration-300 hover:scale-105" 
                         key={index}
                     >
                         <StackIcon name={skill} className="size-12 md:size-24" />
