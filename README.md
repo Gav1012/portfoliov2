@@ -10,4 +10,3 @@ Clone the repo locally then run the following command to start up locally:
 npm run dev
 ```
 or you can visit the live version using this [link](https://gavinp.netlify.app/)
-test
